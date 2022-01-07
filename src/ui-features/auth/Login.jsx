@@ -1,12 +1,16 @@
+// @ts-ignore
 import ErrorCodes from "@/constants/ErrorCodes";
+// @ts-ignore
 import { useLoginMutation } from "@/core/api/auth";
 import { useDispatch } from "react-redux";
+// @ts-ignore
 import { setCredentials } from "@/core/reducers/authSlice";
 import APICodes from "../../constants/APICodes";
 
 export default function Login() {
   const dispatch = useDispatch();
 
+  // @ts-ignore
   const [login, { isLoading }] = useLoginMutation();
 
   const tryLogin = async (event) => {
