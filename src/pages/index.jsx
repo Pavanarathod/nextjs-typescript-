@@ -12,7 +12,7 @@ export default function IndexPage() {
     <PrivateRoute>
       <Main meta={<Meta title="Hi Onco" description="For Oncology" />}>
         Hi Onco Main
-        <Button>Hello</Button>
+        <Button>My name is pvan kumar</Button>
       </Main>
     </PrivateRoute>
   );
